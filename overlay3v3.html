@@ -124,7 +124,55 @@
                         </tr>
                     </table>
                 </div>
-                <div class="col-3 boost-focused"></div>
+                <div class="col-5"></div>
+                <div class="col-3 boost-focused" align="right">
+                    <svg class="progress-ring" height="350" width="350">
+                        <defs>
+                            <linearGradient id="gradient_blue" x1="0%" y1="0%" x2="0%" y2="100%">
+                              <stop offset="0%" stop-color="#74abfe" />
+                              <stop offset="100%" stop-color="#286ed8" />
+                            </linearGradient>
+                            <linearGradient id="gradient_orange" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" stop-color="#c58e33" />
+                                <stop offset="100%" stop-color="#ffce7b" />
+                              </linearGradient>
+          
+                        </defs>
+                        <circle
+                            class="kiklaki"
+                            stroke="black"
+                            stroke-width="10"
+                            fill="#253852" 
+                            r="105" 
+                            cx="110" 
+                            cy="110"
+                        />
+                        <circle
+                            id="inner-circle"
+                            stroke="black"
+                            stroke-width="10"
+                            fill="white" 
+                            r="83" 
+                            cx="110" 
+                            cy="110"
+                        />
+                        <circle 
+                            class="progress-ring_circle"
+                            stroke="url(#gradient_blue)"
+                            stroke-width="10.5"
+                            fill="transparent" 
+                            r="94" 
+                            cx="110" 
+                            cy="110"
+                        />
+                    </svg>
+                    <span id="boost-text" align="center">0</span>
+                    <span id="kph" align="center">0 KM/H</span>        
+                </div>
+            </div>
+            <div class="replay-bar">
+                <img src="Assets/playbutton.png" class="replay-icon" id="arrow">
+                <img src="Assets/circular.png" class="replay-icon" id="circular">
             </div>
             <div class="row">
                 <div class="col-4"></div>

@@ -1,5 +1,15 @@
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+
 .replay-cam {
-    border:1px red solid;
+    // border:1px red solid;
     background: url('Assets/BLUE_REPLAY_CARD_ASSISTS.png');
     background-repeat: no-repeat;
     background-size:100%;
@@ -25,7 +35,7 @@
 #speed {
     width:100px;
     font-size:22px;
-    border:1px solid red;
+    // border:1px solid red;
     color:white;
     position:absolute;
     margin-top:-55px;
@@ -37,4 +47,26 @@
     top: 0px;
     width:1920px;
     height:1080px;
+}
+
+.replay-bar {
+    margin-left:-12px;
+    margin-top:210px;
+    position:absolute;
+    background: url('Assets/REPLAY_BAR.png');
+    width:105%;
+    height:100%;
+    background-repeat: no-repeat;
+    .replay-icon {
+        margin-left:865px;
+        margin-top:12.5px;
+    }
+    #circular {
+        animation: rotation 2s infinite linear;
+    }
+    #arrow {
+        position:absolute;
+        margin-top:23.5px;
+        margin-left:880px;
+    }
 }

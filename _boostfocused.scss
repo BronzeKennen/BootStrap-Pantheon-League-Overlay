@@ -1,0 +1,37 @@
+.boost-focused {
+    margin-left:45px;
+}
+
+.progress-ring {
+    transform: rotate(90deg);
+}
+
+.progress-ring_circle {
+    stroke-dasharray: 361;
+    stroke-dashoffset: 360;
+    transition-duration: 250ms;
+    
+}
+
+
+#boost-text {
+    position:absolute;
+    color:black;
+    /* border:1px red solid; */
+    width:100px;
+    height:30px;
+    margin-left:-160px;
+    margin-top:68px;
+    font-size:38px;
+    font-family:BenzinBold;
+}
+#kph {
+    position:absolute;
+    color:black;
+    width:100px;
+    height:30px;
+    margin-left:-160px;
+    margin-top:121px;
+    font-size:12.5px;
+    font-family:BenzinBold;
+}
