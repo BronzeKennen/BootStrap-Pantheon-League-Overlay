@@ -1,0 +1,254 @@
+.scorebug {
+  position: relative;
+  font-size: 40px;
+  background-image: url("Assets/SCOREBOARD.png");
+  background-repeat: no-repeat;
+  border: 1px red solid;
+  background-position: center top;
+  height: 115px;
+}
+
+.scorebug-table {
+  margin-left: 2px;
+  font-family: AvertaBold;
+  font-size: 28px;
+  color: white;
+  width: 97%;
+  margin-top: 20px;
+}
+.scorebug-table .teams {
+  width: 205px;
+  color: black;
+  font-family: BenzinBold;
+  font-size: 16px;
+}
+.scorebug-table #time {
+  width: 137px;
+  height: 40px;
+}
+.scorebug-table .scores {
+  width: 65px;
+  color: black;
+}
+
+.team-logos {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+}
+
+#blue-team {
+  margin-left: -237px;
+  margin-top: -34px;
+}
+
+#orange-team {
+  margin-left: 174px;
+  margin-top: -34px;
+}
+
+.series-score {
+  width: 225px;
+  height: 25px;
+  margin-top: 5.5px;
+}
+.series-score .point-empty {
+  background: url("Assets/points_empty.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.series-score .empty-blue {
+  background: url("Assets/points_empty.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.series-score .empty-orange {
+  background: url("Assets/points_empty.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.series-score .points_blue_full {
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 6px;
+}
+.series-score .points_orange_full {
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 6.5px;
+}
+
+#bo {
+  position: fixed;
+  font-size: 13px;
+  margin-left: -18px;
+  margin-top: 5px;
+  font-family: BenzinBold;
+}
+
+.side-boosts {
+  color: white;
+  margin-top: 300px;
+}
+
+.boosts {
+  position: relative;
+  width: 250px;
+  height: 275px;
+  font-family: BenzinBold;
+  font-size: 12.7px;
+}
+
+.blue-boost {
+  position: relative;
+  height: 85px;
+  background: url("Assets/PLAYER_BOOST_BLUE.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.blue-boost .blue-boost-num {
+  margin-left: -114.5px;
+  margin-top: 33px;
+  position: absolute;
+  width: 33px;
+}
+.blue-boost .blue-name {
+  width: 190px;
+  margin-top: 5px;
+  margin-left: -78px;
+  position: absolute;
+}
+.blue-boost .blue-boost-bar {
+  margin-left: 40px;
+  margin-top: 35px;
+  position: absolute;
+  width: 191px;
+  height: 14.5px;
+  background: transparent;
+}
+.blue-boost .blue-boost-bar #blue {
+  background-image: url("Assets/BOOST_METER_BLUE.png");
+  background-repeat: no-repeat;
+}
+
+.orange-boost {
+  position: relative;
+  transform: scaleX(-1);
+  background-position: right center;
+  height: 85px;
+  background: url("Assets/PLAYER_BOOST_ORANGE.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.orange-boost .orange-name {
+  width: 190px;
+  margin-top: 5px;
+  margin-left: -78px;
+  position: absolute;
+  transform: scaleX(-1);
+}
+.orange-boost .orange-boost-num {
+  margin-left: -114.5px;
+  margin-top: 33px;
+  position: absolute;
+  width: 33px;
+  transform: scaleX(-1);
+}
+.orange-boost .orange-boost-bar {
+  background: transparent;
+  margin-left: 46px;
+  margin-top: 34px;
+  position: absolute;
+  width: 189.5px;
+  height: 15.5px;
+}
+.orange-boost .orange-boost-bar #orange {
+  background-image: url("Assets/BOOST_METER_ORANGE.png");
+  background-repeat: no-repeat;
+}
+
+.focus-player {
+  margin-top: 120px;
+}
+
+.player-card {
+  margin-left: -60px;
+  background-image: url("Assets/target-player-blue.png");
+  background-repeat: no-repeat;
+  height: 195px;
+}
+
+#focus-player-name {
+  font-family: BenzinBold;
+  font-size: 22px;
+  color: white;
+  margin-top: 12px;
+}
+
+.focus-stats {
+  margin-left: 128px;
+  margin-top: 22px;
+  font-size: 30px;
+  font-family: BenzinBold;
+  width: 275px;
+  height: 140px;
+  table-layout: fixed;
+}
+
+#focus-player-team {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 120px;
+  height: 120px;
+}
+
+.replay-cam {
+  border: 1px red solid;
+  background: url("Assets/BLUE_REPLAY_CARD_ASSISTS.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 130px;
+  font-family: BenzinBold;
+}
+
+#scorer-playmaker {
+  width: 75%;
+  color: white;
+  font-size: 19px;
+  table-layout: fixed;
+}
+
+.stats {
+  font-size: 22px;
+  margin-left: 259px;
+  margin-top: 50px;
+  width: 348px;
+  table-layout: fixed;
+}
+
+#speed {
+  width: 100px;
+  font-size: 22px;
+  border: 1px solid red;
+  color: white;
+  position: absolute;
+  margin-top: -55px;
+  margin-left: 129px;
+}
+
+#stinger {
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+  height: 1080px;
+}
+
+@font-face {
+  font-family: BenzinBold;
+  src: url("Assets/BenzinBold.ttf");
+}
+@font-face {
+  font-family: AvertaBold;
+  src: url("Assets/AvertaBold.otf");
+}/*# sourceMappingURL=style.css.map */

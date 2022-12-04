@@ -1,0 +1,103 @@
+.side-boosts {
+    color:white;
+    margin-top:300px;
+}
+
+.boosts {
+    position:relative;
+    width:250px;
+    height:275px;
+    font-family: BenzinBold;
+    font-size:12.7px;
+}
+
+.blue-boost {
+    position:relative;
+    height:85px;
+    background: url('Assets/PLAYER_BOOST_BLUE.png');
+    background-size:100%;
+    background-repeat:no-repeat;
+    .blue-boost-num {
+        margin-left: -114.5px;
+        margin-top: 33px;
+        position:absolute;
+        width:33px;
+    }
+    .blue-name {
+
+        width:190px;
+        margin-top:5px;
+        margin-left:-78px;
+        position:absolute;
+    }
+    .blue-boost-bar {
+        
+        margin-left:40px;
+        margin-top:35px;
+        position:absolute;
+        width:191px;
+        height:14.5px;
+        background: transparent;
+        #blue {
+            background-image: url("Assets/BOOST_METER_BLUE.png");
+            background-repeat: no-repeat;
+        }
+        
+    }
+}
+
+
+.orange-boost {
+    //INVERT
+    position:relative;
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+    background-position: right center;
+    height:85px;
+    background: url('Assets/PLAYER_BOOST_ORANGE.png');
+    background-size:100%;
+    background-repeat:no-repeat;
+
+    .orange-name {
+        // border:1px solid yellow;
+        width:190px;
+        margin-top:5px;
+        margin-left:-78px;
+        position:absolute;
+        -moz-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        transform: scaleX(-1);
+    
+    }
+    .orange-boost-num {
+        margin-left: -114.5px;
+        margin-top: 33px;
+        position:absolute;
+        width:33px;
+        -moz-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        transform: scaleX(-1);
+    
+    }
+    .orange-boost-bar {
+        // border:1px solid yellow;
+        background: transparent;
+        margin-left:46px;
+        margin-top:34px;
+        position:absolute;
+        width:189.5px;
+        height:15.5px;
+        #orange {
+            background-image: url("Assets/BOOST_METER_ORANGE.png");
+            background-repeat: no-repeat;
+        }
+    }
+
+
+}
+

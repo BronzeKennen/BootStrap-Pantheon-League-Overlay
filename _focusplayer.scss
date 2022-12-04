@@ -1,0 +1,35 @@
+.focus-player {
+    margin-top:120px;
+}
+
+.player-card {
+    margin-left:-60px;
+    background-image: url('Assets/target-player-blue.png');
+    background-repeat:no-repeat;
+    height:195px;
+}
+
+#focus-player-name {
+    font-family: BenzinBold;
+    font-size:22px;
+    color:white;
+    margin-top:12px;
+}
+
+.focus-stats {
+    margin-left:128px;
+    margin-top:22px;
+    font-size:30px;
+    font-family: BenzinBold;
+    width:275px;
+    height:140px;
+    table-layout: fixed;
+}
+
+#focus-player-team {
+    position:absolute;
+    margin-top:10px;
+    margin-left:10px;
+    width:120px;
+    height:120px;
+}

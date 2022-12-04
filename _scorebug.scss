@@ -1,0 +1,87 @@
+.scorebug {
+    position:relative;
+    font-size: 40px;
+    background-image: url("Assets/SCOREBOARD.png");
+    background-repeat: no-repeat;
+    border:1px red solid;
+    background-position:center top;
+    height:115px;
+}
+
+//DEBUG BORDERS!!!
+
+.scorebug-table {
+    margin-left:2px;
+    font-family: AvertaBold;
+    font-size:28px;
+    color:white;
+    width:97%;
+    margin-top:20px;
+    .teams {
+        width:205px;
+        color:black;
+        font-family: BenzinBold;
+        font-size:16px;
+    }
+    #time {
+        width:137px;
+        height:40px;
+    }
+    .scores {
+        width:65px;
+        color:black;
+    }
+}
+
+.team-logos {
+    position:absolute;
+    width:65px;
+    height:65px;
+}
+#blue-team {
+    margin-left:-237px;
+    margin-top:-34px;
+}
+#orange-team {
+    margin-left:174px;
+    margin-top:-34px;
+}
+
+.series-score {
+    width:225px;
+    height:25px;
+    margin-top:5.5px;
+    .point-empty {
+        background:url('Assets/points_empty.png');
+        background-repeat:no-repeat;
+        background-position: center;
+    }
+    .empty-blue { //to hide in cases of bo5
+        background:url('Assets/points_empty.png');
+        background-repeat:no-repeat;
+        background-position: center;
+    }
+    .empty-orange { //to hide in cases of bo5
+        background:url('Assets/points_empty.png');
+        background-repeat:no-repeat;
+        background-position: center;
+    }
+    .points_blue_full {
+        position:absolute;
+        margin-top:-5px;
+        margin-left:6px;
+    }
+    .points_orange_full {
+        position:absolute;
+        margin-top:-5px;
+        margin-left:6.5px;
+    }
+}
+
+#bo {
+    position:fixed;
+    font-size:13px;
+    margin-left:-18px;
+    margin-top:5px;
+    font-family: BenzinBold;
+}
