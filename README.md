@@ -12,7 +12,7 @@ A lightweight set of HTML/CSS/JS overlays for the final version of the **Pantheo
 * **Node.js** (LTS) for the WebSocket relay
 ---
 
-## 🚀 Quick start (local)
+## Quick start (local)
 
 1. **Clone the repo**
 
@@ -81,13 +81,6 @@ A lightweight set of HTML/CSS/JS overlays for the final version of the **Pantheo
   npx sass style.scss style.css --watch
   ```
 * **Layouts:** adjust the HTML scene files (`overlay3v3.html`, `matchday.html`, `currentmatch.html`).
-
----
-
-## 🛠 Development notes
-
-* Preferred workflow is to run OBS and the relay side‑by‑side. When you save `style.css` or JSON, the Browser Source will refresh automatically.
-* If you host the overlays via a local web server (optional), ensure CORS and file paths are correct for OBS.
 
 ---
 
