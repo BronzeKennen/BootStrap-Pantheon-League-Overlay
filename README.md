@@ -84,11 +84,11 @@ A lightweight set of HTML/CSS/JS overlays for the final version of the **Pantheo
 ---
 ## Preview
 
-![Overlay Screenshot](assets/leagueplay.png)
+![League Play Skin](Assets/leagueplay.png)
 
-![Overlay Screenshot](assets/Playoffs.png)
+![Playoffs Skin](Assets/Playoffs.png)
 
-![Overlay Screenshot](assets/replay.png)
+![Replay Cam](Assets/replay.png)
 
 
 
